@@ -1,9 +1,45 @@
 /* Add styling for your page here */
 
 .App {
-
+    margin-left: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left; /* Align text to the left */
+    padding: 20px; /* Add some padding around the content */
 }
 
-.BakeryItem {
+.bakery-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.left-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex: 3; /* Allows the bakery items container to take more space */
+}
+
+.cart-container {
+    flex: 2; /* The cart takes less space than the items container */
+    padding: 20px; /* Add some padding around the cart */
+    max-width: 400px; /* Adjust based on your preference */
+}
+
+.nothing {
+    color: gray;
+}
+
+.total {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.itemNum {
+    margin-top: 10px;
+}
   
-}
